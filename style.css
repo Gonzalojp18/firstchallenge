@@ -1,0 +1,108 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-box {
+    background-color: #e5eaed;
+}
+
+.nav-logo {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.nav-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #001321;
+    
+}
+
+div.nav-container img {
+    width: 5vw;
+    }
+
+.nav-input, .label {
+    display: none;
+}
+
+.nav-menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+
+.access-two ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.access-two a {
+    font-size: 1.2em;
+    color: #f3f3f3;
+    text-decoration: overline;
+
+}
+
+div.box-agencia {
+    text-align: center;
+    font-size: 2em;
+    padding: 1rem;
+    background-color: #f3f3f3;
+}
+
+section.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+article.box-information {
+    color:#070719;
+    width: 30rem;
+    font-size: 1em;
+    margin-top: 5em;
+}
+
+article.box-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 40rem;
+    flex-wrap: wrap;
+}
+
+div.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 40%;
+    font-size:1em;
+    margin: .5rem;
+}
+
+div.item h2 {
+    font-size: 4em;
+    color: #f3f3f3;
+}
+
+div.box-costumer {
+    margin: 2em;
+}
+
+div.box-costumer ul {
+    display: flex;
+    list-style: none;
+}
+
+.costumers img {
+    width: 5vw;
+    margin: 2em;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+/*  */
