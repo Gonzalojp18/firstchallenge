@@ -18,7 +18,7 @@ html * {
     justify-content: space-around;
     align-items: center;
     background-color: #001321;
-    
+
 }
 
 div.nav-container img {
@@ -45,8 +45,18 @@ div.nav-container img {
     font-size: 1.2em;
     color: #f3f3f3;
     text-decoration: overline;
-
+    flex: 1;
+    padding: 0.5em;
+    border-radius: 10%;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
 }
+
+a:hover {
+    background-color: #f44336;
+}
+
+
 
 div.box-agencia {
     text-align: center;
@@ -103,6 +113,11 @@ div.box-costumer ul {
     margin: 2em;
     border-radius: 10px;
     cursor:pointer;
+}
+
+img:hover {
+    transform:rotateY(360deg);
+    transition: all 0.8s ease-in-out;
 }
 
 /*  */
